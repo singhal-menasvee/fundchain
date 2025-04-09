@@ -15,28 +15,28 @@ const Hero = () => {
     setIsModalOpen(true);
   };
 
-  const handleSwitchAccount = async () => {
-    try {
-      if (window.ethereum) {
-        // Request MetaMask to prompt account switch
-        await window.ethereum.request({
-          method: 'wallet_requestPermissions',
-          params: [{ eth_accounts: {} }],
-        });
+  // const handleSwitchAccount = async () => {
+  //   try {
+  //     if (window.ethereum) {
+  //       // Request MetaMask to prompt account switch
+  //       await window.ethereum.request({
+  //         method: 'wallet_requestPermissions',
+  //         params: [{ eth_accounts: {} }],
+  //       });
   
-        // Then re-request accounts
-        await window.ethereum.request({ method: 'eth_requestAccounts' });
+  //       // Then re-request accounts
+  //       await window.ethereum.request({ method: 'eth_requestAccounts' });
   
-        // Refresh to reflect new account
-        window.location.reload();
-      } else {
-        alert('MetaMask not detected!');
-      }
-    } catch (error) {
-      console.error('Error switching account:', error);
-      alert('Something went wrong while switching accounts. Make sure MetaMask is unlocked.');
-    }
-  };
+  //       // Refresh to reflect new account
+  //       window.location.reload();
+  //     } else {
+  //       alert('MetaMask not detected!');
+  //     }
+  //   } catch (error) {
+  //     console.error('Error switching account:', error);
+  //     alert('Something went wrong while switching accounts. Make sure MetaMask is unlocked.');
+  //   }
+  // };
   
   return (
     <>
