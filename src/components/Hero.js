@@ -93,9 +93,9 @@ const Hero = () => {
             >
               Create Project
             </button>
-            <a href="#projects" className="btn btn-outline">
+            {/* <a href="#projects" className="btn btn-outline">
               Browse Projects
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
