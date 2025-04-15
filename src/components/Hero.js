@@ -90,6 +90,7 @@ const Hero = () => {
             <button 
               onClick={handleCreateClick}
               className="btn btn-primary btn-large"
+              style={{ border: '2px solid white' }}
             >
               Create Project
             </button>
