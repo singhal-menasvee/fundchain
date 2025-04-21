@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+****Project Title- FundChain****
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Github- https://github.com/singhal-menasvee/fundchain
+Netlify- https://fundchain20.netlify.app/
 
-## Available Scripts
+🧑‍💻 Contributors
+Abhishek Yadav (roll no.-2 )
+Jahnvi Gupta (roll no.- 11)
+Manasvi Singhal (roll no.-16)
 
-In the project directory, you can run:
+A decentralized crowdfunding platform powered by Ethereum smart contracts. Secure, transparent, and community-driven.​
+🌟 Project Overview
+FundChain aims to revolutionize the crowdfunding landscape by leveraging blockchain technology to ensure transparency, security, and decentralization. By eliminating intermediaries, it fosters direct connections between project creators and backers, ensuring that funds are utilized responsibly and efficiently
+🔍 Key Features
+Decentralized Platform: Built on Ethereum, ensuring trustless transactions and eliminating single points of failure.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Smart Contracts: Automated fund management and disbursement based on predefined conditions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Transparency: All transactions are recorded on the blockchain, providing an immutable audit trail.
+  Community Governance: Backers have a say in project validations and fund releases, promoting accountability.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+🛠️ Technical Stack & Architecture
+Frontend
+Framework: React.js
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Styling: CSS3
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+State Management: React Hooks
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Routing: React Router
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Backend & Smart Contracts
+Blockchain: Ethereum
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Smart Contract Language: Solidity
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Development Environment: Truffle
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+Deployment
+Frontend Hosting: Netlify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+Smart Contracts: Deployed on Ethereum Testnet (e.g., Sepolia)​
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Features:
+ Deadline enforcement, goal tracking, refund system
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+🚀 Key Features & Workflow
+      
+     How FundChain Works?
+For Creators:
+Create campaigns with customizable goals/deadlines
+Receive funds automatically when goals are met
+Transparent tracking of all contributions
+For Backers:
+Browse active projects with progress indicator
+Fund projects in ETH with one-click
+Automatic refunds if projects fail
+         Transaction Flow:
+
+
+
+
+📈 Deployment & Future Scope
+
+Live Implementation
+Network: Ethereum Sepolia Testnet
+Contract Address: 0x36CB84Fc8A2F9Fb2c642249923C360211263114c
+Test ETH: Available from Sepolia faucets
+
+Future Enhancements
+Integration with IPFS: For decentralized storage of project-related documents and media.
+
+
+Multi-Currency Support: Allowing backers to fund projects using various cryptocurrencies.
+
+
+Advanced Governance: Implementing DAO mechanisms for more robust community decision-making.
+
+
+Mobile Application: Developing a mobile app to increase accessibility and user engagement
+
+
